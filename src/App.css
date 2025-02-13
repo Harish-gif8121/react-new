@@ -5,11 +5,19 @@
   justify-content: center;
   min-height: 100vh;
   font-family: sans-serif;
+  background-color:rgba(168, 134, 93, 0.237);
 }
-
+h1 {
+  color :rgb(99, 73, 73);
+  margin: bottom 20px;
+}
 .counter-display {
   font-size: 2rem;
   margin-bottom: 1rem;
+  padding: 10px 20px;
+  border: 1px;
+  border-radius: 5px;
+  background-color: white;
 }
 
 .button-group {
@@ -21,9 +29,10 @@ button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
-  background-color: #4CAF50; /* Green */
-  color: white;
+  background-color: #a7f17f; 
+  color: rgb(19, 159, 184);
 }
 
 button:hover {
