@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import './App.css'; // For optional styling
+import './App.css'; 
 
 function App() {
   const [count, setCount] = useState(0);
 
   const increment = () => setCount(count + 1);
-  const decrement = () => setCount(Math.max(0, count - 1)); // Prevent going below 0 (Bonus)
+  const decrement = () => setCount(Math.max(0, count - 1)); 
   const reset = () => setCount(0);
 
   return (
-    <div className="app-container"> {/* Container for styling */}
+    <div className="app-container">
       <h1>Counter</h1>
       <div className="counter-display">
         {count}
