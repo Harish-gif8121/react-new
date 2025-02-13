@@ -31,10 +31,10 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #a7f17f; 
-  color: rgb(19, 159, 184);
-}
+  background-color:rgb(182, 238, 127); 
+  color:rgb(224, 75, 154);
 
+}
 button:hover {
   opacity: 0.8;
 }
